@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.geeksss</groupId>
+        <artifactId>easyexcel-course</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <!-- 模块配置。 -->
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>easyexcel-section06</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <!-- 属性配置。 -->
+    <properties>
+        <spring.boot.version>2.7.11</spring.boot.version>
+    </properties>
+
+    <!-- 组件依赖。 -->
+    <dependencies>
+        <!-- Spring Boot。 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.yaml</groupId>
+                    <artifactId>snakeyaml</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.yaml</groupId>
+            <artifactId>snakeyaml</artifactId>
+            <version>2.0</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.geeksss</groupId>
+        <artifactId>easyexcel-course</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>easyexcel-section16</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <!-- 属性配置。 -->
+    <properties>
+        <spring.boot.version>2.7.13</spring.boot.version>
+        <mybatis.plus.version>3.5.3.1</mybatis.plus.version>
+        <mysql.version>8.0.33</mysql.version>
+    </properties>
+
+    <!-- 组件依赖。 -->
+    <dependencies>
+    </dependencies>
+</project>

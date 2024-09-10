@@ -1,0 +1,31 @@
+# Java。
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEA。
+.idea/
+*.iml
+
+# Eclipse。
+.settings
+.project
+.classpath
+*.log
+
+# Maven。
+target/
+logs/
+
+# Windows。
+Thumbs.db
+
+# MacOS。
+.DS_Store
+
+# Log。
+.dmp
+.phd
+.txt
+.trc
